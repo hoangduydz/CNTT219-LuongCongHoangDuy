@@ -45,7 +45,19 @@ Mở `A2-02_Titanic_Kaggle891.ipynb`, chọn Restart Kernel rồi Run All từ �
 Trên Colab: mở notebook, tải train.csv lên Files, chọn Runtime > Run all.
 Không cần API key và không tải dữ liệu tự động từ nguồn khác.
 
-## Tiến độ
+## Các tệp chính
+
+- `A2-02_Titanic_Kaggle891.ipynb`: notebook còn nguyên kết quả và 9 biểu đồ.
+- `A2-02_BaoCao_8Trang_240464_240233.pdf`: báo cáo chính đúng 8 trang, 6 biểu đồ.
+- `A2-02_Slide_Kaggle891_240464_240233.pptx`: 12 slide, gồm 9 trang chính và 3 phụ lục.
+- `HUONG_DAN_THUYET_TRINH.md`: lời trình bày và câu hỏi/đáp để ôn.
+- `requirements.txt`: thư viện cần cài.
+
+[Mở notebook trên Colab](https://colab.research.google.com/github/hoangduydz/CNTT219-LuongCongHoangDuy/blob/main/A2/A2-02_Titanic_Kaggle891.ipynb).
+Sau khi mở, tải `train.csv` vào Files rồi Run all. Đây là bản Kaggle mới,
+khác notebook OpenML cũ đang nằm trong Google Drive.
+
+## Kết quả kiểm chứng
 
 Notebook đã chạy 11 ô mã trong kernel mới, 0 lỗi, 14 nhóm assert đạt và 9 biểu đồ.
 Kết quả kiểm tra: 891 hồ sơ, 342 người sống; tuổi quan sát 714 hồ sơ, 290 người sống.
@@ -56,7 +68,8 @@ Matplotlib 3.10.8, Seaborn 0.13.2. Notebook còn nguyên kết quả và hình.
 Các biểu đồ PNG được tạo vào `figures/` khi chạy lại.
 
 Commit thứ nhất ghi phạm vi và nguồn; lần bổ sung này đưa notebook đã chạy và môi trường.
-Báo cáo được thêm sau khi kiểm tra đủ 8 trang. Các commit là lần chỉnh sửa thực,
+Lần hoàn thiện thêm PDF 8 trang và slide đã cập nhật toàn bộ số liệu Kaggle.
+Các commit là lần chỉnh sửa thực,
 không lùi ngày và không đại diện cho lịch sử làm nhiều tuần.
 
 ## Khai báo AI
