@@ -5,30 +5,38 @@ Chỉ dùng số liệu bản 891 dòng. Không đọc các tỷ lệ của bả
 
 ## Trình bày trong khoảng 5 phút
 
-Slide 1–2, khoảng 30 giây: giới thiệu bài toán, hai thành viên và ba câu hỏi chính thức.
+Slide 1, khoảng 15 giây: giới thiệu bài toán, hai thành viên và mục tiêu phân tích.
 
-Slide 3, khoảng 35 giây: “Chúng em dùng train.csv Kaggle có 891 hồ sơ, 12 cột.
+Slide 2, khoảng 25 giây: nêu ba câu hỏi chính thức. 74,2% là tỷ lệ sống của nữ;
+58,0% là tỷ lệ sống của trẻ ≤12 trong mẫu có tuổi; 46,8 điểm phần trăm là chênh
+giữa nữ hạng 1 và nữ hạng 3. Các con số là bằng chứng mở đầu, cần giải thích ở các slide sau.
+
+Slide 3, khoảng 45 giây: “Chúng em dùng train.csv Kaggle có 891 hồ sơ, 12 cột.
 Age thiếu 177 và Cabin thiếu 687. Giữ CSV gốc, bỏ Cabin khỏi bảng phân tích,
 không tự xóa giá vé cao. Bảng chính vẫn giữ 891 người, riêng tuổi dùng 714 tuổi quan sát.”
 
-Slide 4–5, khoảng 65 giây: “Nhiều yếu tố có liên hệ với tỷ lệ sống. Nữ 74,2%, nam 18,9%.
-Hạng 1/2/3 lần lượt 63,0%, 47,3%, 24,2%. Gia đình 2–4 cao hơn đi một mình,
-nhưng quy mô 5 giảm xuống 20,0%, nên không phải càng đông càng tốt.
-Các nhóm khác thành phần và số quan sát, không kết luận 4 người là tối ưu.”
+Slide 4, khoảng 40 giây: “Nữ có tỷ lệ sống 74,2%, nam là 18,9%, chênh 55,3 điểm
+phần trăm. Đây là liên hệ mô tả, chưa xếp hạng tác động độc lập của các yếu tố.”
 
-Slide 6, khoảng 50 giây: “Giả thuyết phụ nữ và trẻ em trước có hỗ trợ mô tả một phần.
+Slide 5, khoảng 55 giây: “Giả thuyết phụ nữ và trẻ em trước có hỗ trợ mô tả một phần.
 Trẻ em gộp 58,0%, nhóm >12 là 38,8%. Trong nam, trẻ em 56,8% cao hơn 17,3%;
 trong nữ, trẻ em 59,4% thấp hơn 77,7%. Vì vậy không cùng chiều ở mọi nhóm.
 Tỷ lệ sống cũng không cho biết trình tự ưu tiên sơ tán.”
 
-Slide 7, khoảng 50 giây: “Khi giữ cùng giới tính, hạng 1 vẫn cao hơn hạng 3.
+Slide 6, khoảng 60 giây: “Khi giữ cùng giới tính, hạng 1 vẫn cao hơn hạng 3.
 Trong nữ là 96,8% so với 50,0%, trong nam là 36,9% so với 13,5%.
 Liên hệ hạng vé không chỉ do cơ cấu giới ở mẫu gộp. Chưa thể kết luận nhân quả
 độc lập hoặc cơ chế trung gian vì chưa loại hết các yếu tố khác.”
 
-Slide 8–9, khoảng 45 giây: chốt ba nhận định kèm giới hạn, phân công 60/40 và khai báo AI.
-Không đọc toàn bộ bảng. Dừng để chỉ rõ tử số, mẫu số và điều kết quả chưa chứng minh.
-Ba slide 10–12 chỉ mở khi hỏi đáp. Mỗi thành viên cần chuẩn bị trình bày toàn bài,
+Slide 7, khoảng 45 giây: chốt ba nhận định kèm giới hạn. Ba chênh lệch là 55,3 điểm
+phần trăm (nữ so với nam), 39,4 điểm phần trăm (trẻ em nam so với nam >12),
+46,8 điểm phần trăm (nữ hạng 1 so với nữ hạng 3). Tính từ tỷ lệ gốc rồi mới làm tròn:
+(21/37 − 72/416) × 100 = 39,449..., làm tròn một chữ số là 39,4.
+
+Tổng lời nói khoảng 4 phút 45 giây, dành phần còn lại để chuyển slide.
+Phân công 60/40 và khai báo AI nằm ở bìa. Phần Notes của PowerPoint có lời dẫn đầy đủ.
+Không đọc toàn bộ bảng. Chỉ rõ tử số, mẫu số và điều kết quả chưa chứng minh.
+Ba slide 8–10 chỉ mở khi hỏi đáp. Mỗi thành viên cần chuẩn bị trình bày toàn bài,
 không mặc định tỷ lệ công việc 60/40 là tỷ lệ thời gian nói.
 
 ## Câu hỏi và câu trả lời
